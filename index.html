@@ -39,11 +39,17 @@
     var eButHand = document.getElementById("entrybutton");
     eButHand.addEventListener("click", show);
     
+    /*creating funtion show */ 
     function show()
-    {
-      var a = document.getElementById("entryinput").value;
-      document.getElementById("textoutput").textContent = a; 
-      alert("Dhruvesh Patel: " + a);
+    
+      /* declaring variable text from the entry input form */
+      var text = document.getElementById("entryinput").value;
+     
+      /* assigning the value to text variable */
+      document.getElementById("textoutput").textContent = text; 
+     
+      /* calling and pushing the value to output */
+      alert("Dhruvesh Patel: " + text);
 		}
 	</script>
 </body>
